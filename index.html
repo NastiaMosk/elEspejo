@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Raleway:300,400,600|Playfair+Display&amp;display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header-content">
+        <div class="header-content__logo"> <a href="#home">LOGO</a></div>
+        <input class="header-content__toggler" type="checkbox" id="burger-btn"/>
+        <div class="header-content__hamburger">
+          <label for="burger-btn"></label>
+        </div>
+        <div class="side-menu"> 
+          <div class="header-content__logo"> <a class="nav-menu__item" href="#home">LOGO</a></div>
+          <nav class="side-menu__nav-menu nav-menu">
+            <li class="secondary-heading"><a class="nav-menu__item" href="#myStory">About me</a></li>
+            <li class="secondary-heading"><a class="nav-menu__item" href="#portfolio">Portfolio</a></li>
+            <li class="secondary-heading"><a class="nav-menu__item" href="#product">My book</a></li>
+            <li class="secondary-heading"><a class="nav-menu__item" href="#footer">Follow me</a></li>
+          </nav>
+          <div class="social-icons .side-menu__social-icons"><a class="social-icons__item instagram" href="https://www.instagram.com/nastia_mosk/" target="_blank" rel="noopener noreferrer"></a><a class="social-icons__item facebook" href="https://www.facebook.com/NastiaMosk" target="_blank" rel="noopener noreferrer"></a><a class="social-icons__item twitter" href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer"></a><a class="social-icons__item youtube" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"></a></div>
+        </div>
+      </div>
+    </header>
+    <div class="cover" id="home">
+      <div class="cover__filter"></div>
+      <div class="cover-text">
+        <h1 class="cover-text__title">Some Name</h1>
+        <h2 class="cover-text__subtitle">photographer</h2>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="biography block" id="myStory">
+        <h2 class="secondary-heading">My story</h2>
+        <p class="text animation-element slide-left">
+          Lorem Lipsum dolor sit amet consectetur
+          adipisicing elit. Dolores laboriosam
+          reprehenderit sapiente, assumenda facilis
+          quibusdam dolorum inventore nihil esse 
+          aspernatur facere minima deserunt obcaecati 
+          explicabo perferendis, eum asperiores et.
+        </p><img class="biography__photo animation-element slide-right" src="img/bio-small.jpg" srcset="img/bio-small.jpg 450w, img/bio-medium.jpg 700w, img/bio-big.jpg 900w" alt="My photo"/>
+      </div>
+      <div class="portfolio block" id="portfolio"><span class="portfolio__inst-icon"></span><a class="portfolio__account-link--faded" href="https://www.instagram.com/nastia_mosk/" target="_blank" rel="noopener noreferrer">@nastia_mosk</a>
+        <div class="portfolio__gallery gallery"> <a class="span-2 gallery__item-link animation-element slide-up" href="img/gallery/prairie-dog.jpg"><img class="gallery__item-thumbnail" src="img/gallery/prairie-dog-tmb.jpg" alt="Prairie dog"/></a><a class="gallery__item-link animation-element slide-up" href="img/gallery/the-Grand-Canyon.jpg"><img class="gallery__item-thumbnail" src="img/gallery/the-Grand-Canyon-tmb.jpg" alt="The Grand Canyon"/></a><a class="span-3 gallery__item-link animation-element slide-up" href="img/gallery/kodak-Portra-Film.jpg"><img class="gallery__item-thumbnail" src="img/gallery/kodak-Portra-Film-tmb.jpg" alt="Kodak Portra Film"/></a><a class="span-2 gallery__item-link animation-element slide-up" href="img/gallery/good-Boy-sitting-dog.jpg"><img class="gallery__item-thumbnail" src="img/gallery/good-Boy-sitting-dog-tmb.jpg" alt="Good Boy - sitting dog"/></a><a class="span-2 gallery__item-link animation-element slide-up" href="img/gallery/hotel-LondonHouse-Chicago.jpg"><img class="gallery__item-thumbnail" src="img/gallery/hotel-LondonHouse-Chicago-tmb.jpg" alt="Hotel LondonHouse Chicago"/></a><a class="span-3 gallery__item-link animation-element slide-up" href="img/gallery/green-Leaf-Fern.jpg"><img class="gallery__item-thumbnail" src="img/gallery/green-Leaf-Fern-tmb.jpg" alt="Green Leaf Fern"/></a><a class="gallery__item-link animation-element slide-up" href="img/gallery/montain-Cliff-Rock.jpg"><img class="gallery__item-thumbnail" src="img/gallery/montain-Cliff-Rock-tmb.jpg" alt="Montain Cliff Rock"/></a></div>
+      </div>
+      <div class="promo block" id="product">
+        <div class="promo__container">
+          <h2 class="promo__heading secondary-heading">Check out my book!</h2><img class="promo__photo" src="img/promo-photo.png" alt="My book"/>
+          <p class="promo__legend text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          <p class="promo__price">$100.00</p><a class="promo__phone-num--faded" href="tel:+380669741770">+352-4857-65-98</a><a class="promo__email--faded" href="mailto:thehappynastia@gmail.com" target="_blank" rel="noopener noreferrer">email@mail.mail</a>
+        </div>
+      </div>
+    </div>
+    <footer class="footer" id="footer">
+      <div class="footer-content">
+        <h2 class="footer-content__heading secondary-heading">Folow me on <span class="inst-logo-word">Instagram</span></h2>
+        <div class="footer-content__inst-frame inst-frame">
+          <div class="inst-hd">
+            <div class="inst-ava"><a href="https://www.instagram.com/nastia_mosk/" target="_blank" rel="noopener noreferrer">
+                <div class="inst-ava__crl"><img src="img/inst-circle.svg"/></div><img class="inst-ava__pic" src="img/inst-ava.jpg"/></a></div>
+            <div class="inst-section"><span class="inst-section__nknm"><a href="https://www.instagram.com/nastia_mosk/" target="_blank" rel="noopener noreferrer"> nastia_mosk</a></span>
+              <ul class="inst-sts">
+                <li class="inst-sts__itm"><a href="https://www.instagram.com/nastia_mosk/" target="_blank" rel="noopener noreferrer"><span>34</span><br> posts</a></li>
+                <li class="inst-sts__itm"><a href="https://www.instagram.com/nastia_mosk/" target="_blank" rel="noopener noreferrer"><span>1,204</span><br> followers</a></li>
+                <li class="inst-sts__itm"><a href="https://www.instagram.com/nastia_mosk/" target="_blank" rel="noopener noreferrer"><span>412</span><br> following</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="inst-descr"><span class="inst-descr__nm">Nastia</span>
+            <p class="inst-descr__txt">
+              For to me to live is Christ, and to die is gain.
+              <br>▪Phil 1:21
+            </p><a class="inst-descr__lnk" href="https://www.instagram.com/nastia_mosk/" target="_blank" rel="noopener noreferrer">instagram.com/nastia_mosk</a>
+          </div>
+        </div>
+        <div class="social-icons footer-content__social-icons"><a class="social-icons__item instagram" href="https://www.instagram.com/nastia_mosk/" target="_blank" rel="noopener noreferrer"></a><a class="social-icons__item facebook" href="https://www.facebook.com/NastiaMosk" target="_blank" rel="noopener noreferrer"></a><a class="social-icons__item twitter" href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer"></a><a class="social-icons__item youtube" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"></a></div>
+      </div>
+      <div class="Nastia_Copyright">
+        <cite class="copyright"><a href="https://www.linkedin.com/in/nastiamosk/" target="_blank" rel="noopener noreferrer">© Nastia Moskalenko</a> Production. 2020. All rights reserved</cite>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
